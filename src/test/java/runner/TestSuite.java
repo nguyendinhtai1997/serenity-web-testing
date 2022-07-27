@@ -11,5 +11,5 @@ import org.junit.runner.RunWith;
         glue = "stepdefinitions",
         tags = "@GoogleSearch"
 )
-public class CucumberTestSuite {
+public class TestSuite {
 }
