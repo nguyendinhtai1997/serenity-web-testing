@@ -7,7 +7,7 @@ import navigation.NavigateTo;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.ensure.Ensure;
 import search.GoogleResult;
-import search.LookForInformation;
+import search.SearchInformation;
 
 public class SearchStepDefinitions {
 
@@ -19,7 +19,7 @@ public class SearchStepDefinitions {
     @When("{actor} input to search field {string}")
     public void searchesFor(Actor actor, String term) {
         actor.attemptsTo(
-                LookForInformation.about(term)
+                SearchInformation.about(term)
         );
     }
 
