@@ -1,13 +1,13 @@
-package starter.stepdefinitions;
+package stepdefinitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
 import io.cucumber.java.en.When;
+import navigation.NavigateTo;
 import net.serenitybdd.screenplay.Actor;
 import net.serenitybdd.screenplay.ensure.Ensure;
-import starter.navigation.NavigateTo;
-import starter.search.GoogleResult;
-import starter.search.LookForInformation;
+import search.GoogleResult;
+import search.LookForInformation;
 
 public class SearchStepDefinitions {
 
